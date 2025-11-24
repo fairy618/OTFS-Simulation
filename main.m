@@ -1,6 +1,8 @@
 clear;
 close all;
 
+
+
 %--------------------------------------------------------------------------
 %
 % This code forms a simulation of a wideband wireless communications system
@@ -41,7 +43,7 @@ velocity = 120;                 % Velocity of mobile rx relative tx km/hr
 codeRate = 2/4;                 % FEC code rate used
 maxIterations = 25;             % Set maximum no. of iterations for LDPC decoder
 totalBits = 1e6;                % The approx. total no. of bits simulated
-repeats = 1;                    % Number of simulation repetitions 
+repeats = 100;                    % Number of simulation repetitions 
 
 
 %--------------------------------------------------------------------------
